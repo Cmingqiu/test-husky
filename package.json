@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eslint":"eslint --ext .js src/**",
     "commit": "git-cz"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "@commitlint/config-conventional": "^17.0.0",
     "@commitlint/cz-commitlint": "^17.0.0",
     "commitizen": "^4.2.4",
+    "eslint": "^8.16.0",
     "husky": "^8.0.1"
   },
   "config": {
